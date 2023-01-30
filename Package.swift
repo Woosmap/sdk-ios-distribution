@@ -4,7 +4,7 @@ import PackageDescription
 
 let version = "1.0.0"
 let moduleName = "Woosmap"
-let checksum = "cdc35ff1c7f96d721f58a2e17c09f68d2c17547e5767d75279fda1977b51dbc7"
+let checksum = "7d62300d7e5ab967ac318b487ae99fc9f9d94a946f9b16f1ec58728a114d88e5"
 
 let package = Package(
     name: moduleName,
@@ -20,7 +20,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: moduleName,
-            url: "https://api.ringum.net/sdk/releases/ios/packages/\(version)/\(moduleName).xcframework.zip",
+            url: "https://api.ringum.net/maps/sdk/ios/Woosmap/v\(version)/\(moduleName).xcframework.zip",
             checksum: checksum
         )
     ]
