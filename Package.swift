@@ -2,9 +2,10 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 import PackageDescription
 
-let version = "1.0.0"
+let version = "1.0.0-alpha.1"
 let moduleName = "Woosmap"
-let checksum = "7d62300d7e5ab967ac318b487ae99fc9f9d94a946f9b16f1ec58728a114d88e5"
+let checksum = "383c2120301a76630b53a201a9ec7a0805f4fda29072f4956ede297fa8a1b88f"
+let binariesBaseURL = "https://native-sdk.woosmap.com"
 
 let package = Package(
     name: moduleName,
@@ -20,7 +21,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: moduleName,
-            url: "https://api.ringum.net/maps/sdk/ios/Woosmap/v\(version)/\(moduleName).xcframework.zip",
+            url: "\(binariesBaseURL)/ios/Woosmap/\(version)/\(moduleName).xcframework.zip",
             checksum: checksum
         )
     ]
