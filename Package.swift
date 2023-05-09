@@ -4,7 +4,7 @@ import PackageDescription
 
 let version = "1.0.0-alpha.5"
 let moduleName = "Woosmap"
-let checksum = "b2c2f9f542f823648767a511f4309df9575be6edbe33229907ad7025c4d04d01"
+let checksum = "c62c664af5f37490aa492d83b7e1e501329c15b761ecee67acd72528e69637ca"
 let binariesBaseURL = "https://native-sdk.woosmap.com"
 
 let package = Package(
