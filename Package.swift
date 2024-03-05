@@ -2,9 +2,9 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 import PackageDescription
 
-let version = "1.1.0-alpha.3"
+let version = "1.1.0-alpha.4"
 let moduleName = "Woosmap"
-let checksum = "ec8d84317dbafd5f7d4171256571e05ed55f6ab4169b2cf547c882516714b561"
+let checksum = "b7812206cfc13662a17000d0da0514f7897bb22f0dd82c6c7c55c7efc87bb3d4"
 let binariesBaseURL = "https://native-sdk.woosmap.com"
 
 let package = Package(
